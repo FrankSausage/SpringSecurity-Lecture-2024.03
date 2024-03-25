@@ -86,4 +86,9 @@ public class SecurityUserController {
 
         return "loginSuccess - " + uid;
     }
+
+    @GetMapping("/list")
+    public String list(Model model){
+        return "";
+    }
 }
